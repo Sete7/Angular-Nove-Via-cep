@@ -1,0 +1,28 @@
+{
+  "formulario": [
+    {
+      "cep": "72310-419",
+      "uf": "ssp-df",
+      "cidade": "samambaia sul",
+      "id": 3
+    },
+    {
+      "cep": "72310-419",
+      "uf": "DF",
+      "cidade": "Samambaia Sul (Samambaia)",
+      "id": 4
+    },
+    {
+      "cep": "72015-110",
+      "uf": "DF",
+      "cidade": "Taguatinga Sul (Taguatinga)",
+      "id": 6
+    },
+    {
+      "cep": "72125730",
+      "uf": "DF",
+      "cidade": "Taguatinga Norte (Taguatinga)",
+      "id": 9
+    }
+  ]
+}

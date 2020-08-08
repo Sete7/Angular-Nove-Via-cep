@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-title>Alterar Endereço</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Cep"
+                [(ngModel)]="formulario.cep" name="cep">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="UF"
+                [(ngModel)]="formulario.uf" name="uf">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Cidade"
+                [(ngModel)]="formulario.cidade" name="cidade">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateFormulario()" color="primary">
+        Atualizar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
